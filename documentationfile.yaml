@@ -6,7 +6,7 @@ info:
 servers:
   - url: http://localhost:5555/api/v1
     description: Local server
-  - url: https://comagency-assesmentyvette-serverside.onrender.com
+  - url: https://comagency-assesmentyvette-serverside.onrender.com/api/v1
 
 paths:
   /create-customer:
