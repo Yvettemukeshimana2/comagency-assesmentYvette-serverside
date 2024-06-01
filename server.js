@@ -1,6 +1,6 @@
 import bodyParser from "body-parser";
 import cors from "cors";
-import customerRouter from "./endpoints/endpoints";
+import customerRouter from "./endpoints/endpoints.js";
 import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";

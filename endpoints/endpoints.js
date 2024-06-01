@@ -1,5 +1,5 @@
 import express from "express";
-import { createCustomer, deleteCustomerById, getCustomerById, getCustomers, updateCustomerById } from "../controllers/crud";
+import { createCustomer, deleteCustomerById, getCustomerById, getCustomers, updateCustomerById } from "../controllers/crud.js";
 
 const customerRouter = express.Router();
 
